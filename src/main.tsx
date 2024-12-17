@@ -6,7 +6,9 @@ import AppRoutes from "./AppRoutes.tsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
+
   <BrowserRouter>
+    <div><a>あっはっは！</a></div>
     <AppRoutes />
   </BrowserRouter>,
 );

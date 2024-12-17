@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: npm ci && npm run build
         env:
-          PUBLIC_URL: /test
+          PUBLIC_URL: /blueberry1001.github.io/ReactApp1/t
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
